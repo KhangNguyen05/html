@@ -1,0 +1,43 @@
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #ffeb99;
+}
+
+#header,
+#nav,
+#footer {
+  background-color: #ffd700;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#content {
+  display: flex;
+  border: 1px solid black;
+}
+
+#section {
+  flex-basis: 75%;
+  padding: 5px;
+}
+
+#article1,
+#article2 {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#article1 {
+  background-color: #fffacd;
+}
+
+#article2 {
+  background-color: #ffdab9;
+}
+
+#aside {
+  flex-basis: 25%;
+  padding: 10px;
+  border-left: 1px solid black;
+}
